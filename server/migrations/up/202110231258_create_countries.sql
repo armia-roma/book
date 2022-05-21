@@ -1,0 +1,10 @@
+BEGIN;
+
+CREATE TABLE countries(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+INSERT INTO migrations (name)
+VALUES ('202110231258_create_countries');
+COMMIT;

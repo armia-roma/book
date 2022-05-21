@@ -1,0 +1,10 @@
+BEGIN;
+
+CREATE TABLE categories(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL 
+);
+INSERT INTO migrations (name)
+VALUES ('202110231249_create_categories');
+
+COMMIT;
